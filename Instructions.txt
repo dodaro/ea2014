@@ -1,0 +1,9 @@
+Some useful git commands:
+
+checkout of the repository -> git checkout https://username@github.com/ea2014/ea2014.git
+create a new branch -> git branch nameBranch
+switch to the new branch -> git checkout nameBranch
+add a file or a folder -> git add nameFile/nameFolder
+commit your changes -> git commit -a
+push your changes on the repository -> git push
+get changes -> git pull
