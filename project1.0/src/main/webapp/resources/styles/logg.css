@@ -1,0 +1,174 @@
+body{
+	background-color:#d3d3ff;
+
+	text-align:center;
+	
+	font-family: arial,sans-serif;	
+	color:#6f6fff;
+}
+
+hr{
+	margin:0px;
+	padding:0px;
+}
+
+.imgContainer{
+	padding-left:30px;
+	float:right;
+}
+
+.homeP{
+	text-align:left;
+}
+
+
+#divmenu{
+	float:left;
+	width:200px;
+	text-align:left;
+}
+
+.staticUl{
+	list-style-type:none;
+	margin:5px;
+	padding:5px;
+	margin-top:10px;
+
+}
+
+.staticItem{
+	margin-bottom:20px;
+}
+
+.staticLink{
+	
+	background-color:#9394fe;
+	color:#efeffe;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+	padding-top:5px;
+	padding-bottom:5px;	
+	padding-left:10px;
+	padding-right:10px;
+
+	border-radius:10px;
+}
+
+.subMenu{
+	list-style-type:none;
+	margin:5px;
+	padding:5px;
+	margin-top:10px;
+}
+
+.subMenu li{
+	margin-bottom:15px;	
+}
+
+.subMenu a{
+	text-decoration:none;
+	color:#6f6fff;
+	font-weight:bold;
+	font-style:italic;
+	padding-top:5px;
+	padding-bottom:5px;	
+	padding-left:10px;
+	padding-right:10px;
+
+	border-radius:10px;
+}
+
+
+.subMenu li a:hover{
+	background-color:#9394fe;
+	color:#efeffe;
+	
+}
+
+.staticItem{
+	list-style-type:none;
+	text-decoration:none;
+	
+}
+
+#divview{
+	margin-left:220px;
+}
+
+#container{
+	background-color:#efeffe;
+	border-radius: 15px;
+
+	margin: 5% 12%;
+}
+
+#content{
+	margin:50px 10%;
+	overflow:auto;
+}
+
+#header{
+
+	background-image: url('../images/header.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top:100px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+#header p{
+	padding-left:20px;
+	text-align:left;
+}
+
+#headerSplitOne{
+	float:left;
+	width:90%
+}
+
+#navigationBar{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+#navigationBar ul{
+	list-style-type: none;
+	margin:5px;
+	padding:5px;
+	
+}
+
+#navigationBar ul li{
+	display: inline;
+	padding:20px;
+	
+}
+
+#navigationBar ul li a{
+
+	text-decoration:none;
+	color:#6f6fff;
+	font-weight:bold;
+	font-style:italic;
+	
+	padding-top:5px;
+	padding-bottom:5px;	
+	padding-left:10px;
+	padding-right:10px;
+
+	border-radius:10px;
+}
+
+#navigationBar ul li a:hover{
+	background-color:#9394fe;
+	color:#efeffe;
+}
+
+#footer{
+	font-size:10px;
+	font-style:italic;
+	padding-top:5px;
+	padding-bottom:5px;
+}
