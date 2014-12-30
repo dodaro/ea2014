@@ -2,11 +2,11 @@ package it.unical.ilbellodelledonne.dao;
 
 import it.unical.ilbellodelledonne.model.User;
 
+
 public interface UserDao {
-	
-	public void createUser(User user);
+	void create(User u);
 	User retrieve(String username);
-	void update(User user);
-	void delete(User user);
+	void update(User u);
+	void delete(User u);
 
 }
