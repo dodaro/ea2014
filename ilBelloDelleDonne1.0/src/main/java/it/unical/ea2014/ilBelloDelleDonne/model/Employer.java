@@ -1,4 +1,6 @@
-package it.unical.ilbellodelledonne.model;
+package it.unical.ea2014.ilBelloDelleDonne.model;
+
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
@@ -15,8 +17,9 @@ public class Employer extends User{
 		super();
 	}
 	
-	public Employer(String username, String password){
-		super(username, password);
+	public Employer(Account account, String name, String surname, String email, Date birth, String type){
+		super(account, name, surname, email, birth, type);
 	}
 
 }
+
